@@ -1,0 +1,588 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+/* header {
+    background-color: #000;
+    border-bottom: 2px solid #430DB0;
+    position: fixed;
+    margin-left: 1vw;
+} */
+
+a {
+    text-decoration: none;
+}
+
+.main-content {
+    padding: 120px;
+    margin-left: 4vw;
+}
+
+.lucas-text {
+    color: #fff;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 60px;
+    text-shadow: 5px 5px 10px #430DB0;
+    margin-top: 40px;
+}
+
+.torres-text {
+    color: #430DB0;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 60px;
+    margin-left: 8vw;
+    margin-top: -6vh;
+    text-shadow: 5px 5px 10px #747373;
+}
+
+.frontend-text {
+    color: #fff;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+    margin-left: 5vw;
+    margin-top: -3vh;
+    text-shadow: 5px 5px 10px #430DB0;
+}
+
+.quem {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.quem span{
+    color: #430DB0;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 80px;
+    text-shadow: 5px 5px 10px #5515d5;
+}
+
+.foto img{
+    background-color: #1E1D1D;
+    height: 350px;
+    width: 350px;
+    border-radius: 30px;
+    margin-right: 150px;
+    border: 1.5px solid #430DB0;
+}
+
+.container2 {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.sobremim span {
+    color: #fff;
+    font-size: 30px;
+}
+
+.sobremim {
+    width: 45vw;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.projetos-title {
+    text-align: center;
+    margin-top: 15vh;
+}
+
+.projetos-title span{
+    font-size: 80px;
+    color: #430DB0;
+    font-family: 'Chakra Petch', sans-serif;
+    text-shadow: 5px 5px 10px #5515d5;
+}
+
+.container3 img {
+    height: 200px;
+    width: 400px;
+    margin-bottom: 5vh;
+    transition: 0.5s;
+}
+
+.container3 img:hover {
+    transform: scaleX(1.1) scaleY(1.1);
+}
+
+.container3 {
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.google,
+.jornal,
+.japanese {
+    /* box-shadow: -30px -10px 10px #430DB0; */
+    cursor: pointer;
+}
+
+.google img,
+.jornal img,
+.japanese img {
+    border-radius: 10px;
+}
+
+.google-flex, 
+.jornal-flex, 
+.japanese-flex {
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.google-flex span, 
+.jornal-flex span, 
+.japanese-flex span {
+    margin-left: 30px;
+    width: 40vw;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.contato-title span {
+    font-size: 80px;
+    color: #430DB0;
+    font-family: 'Chakra Petch', sans-serif;
+    text-shadow: 5px 5px 10px #5515d5;
+}
+
+.contato-title {
+    text-align: center;
+    margin-top: 15vh;
+}
+
+.contactme span {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Inria Sans', sans-serif;
+    border-bottom: 2px solid #fff;
+}
+
+.contactme {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.contatos {
+    margin-top: 15vh;
+    margin-left: 32vw;
+}
+
+.container4 img {
+    height: 50px;
+    margin-bottom: 5vh;
+    filter: invert(100%);
+}
+
+.email-flex, 
+.telefone-flex, 
+.local-flex {
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+}
+
+.email-flex span, 
+.telefone-flex span, 
+.local-flex span {
+    margin-left: 3vw;
+    font-family: 'Inria Sans', sans-serif;
+    text-align: end;
+    margin-top: 10px;
+}
+
+.email-flex button {
+    cursor: pointer;
+    outline: none;
+    border-radius: 18px;
+    background: none;
+    transition: 0.2s;
+    color: #430DB0;
+    margin-top: 5px;
+    margin-left: 3vw;
+    padding: 8px;
+    border: 2px solid #430DB0;
+    font-size: 15px;
+}
+
+.email-flex button:hover {
+    border: 4px solid #430DB0;
+    color: #430DB0;
+    box-shadow: 0px 0px 35px #430DB0, 0px 0px 15px #430DB0;
+    text-shadow: 0px 0px 10px #430DB0cc, 0px 0px 3px #430DB0;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #1E1D1D;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #430DB0;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #280570;
+}
+
+/* .email-flex button {
+    background-color: rgb(45, 45, 45);
+    margin-top: 6px;
+    margin-left: 3vw;
+    padding: 8px;
+    transition: 0.5s;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    box-shadow: 5px 5px 5px #430DB0;
+    transition: 0.5s;
+}
+
+.email-flex button:hover {
+    background-color: #430DB0;
+    color: #000;
+    border: 2px solid #000;
+    box-shadow: none;
+    transform: scaleX(1.15) scaleY(1.15);
+} */
+
+/* FOOTER */
+.footer #button {
+    width: 14px;
+    height: 14px;
+    border: red 7px solid;
+    border-radius: 100%;
+    margin: 0 auto;
+    position: relative;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.footer #button:hover {
+    width: 35px;
+    height: 35px;
+    border: red 12px solid;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    position: relative;
+}
+
+.footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    margin: 0 auto;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 999;
+}
+
+.footer:hover {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    height: 100px;
+}
+
+.footer #container {
+    margin-top: 2px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: #585858;
+}
+
+.footer #cont {
+    position: relative;
+    top: -30px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.footer_center {
+    width: 100%;
+    text-align: center;
+}
+
+.socials {
+    height: 25px;
+    margin: 50px 40px;
+    transition: 0.3s;
+}
+
+.socials:hover {
+    transform: scaleX(1.3) scaleY(1.3);
+}
+
+.fgrid {
+    display: grid;
+    grid-template-rows: 75px;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+#myImg {
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+#myImg:hover {opacity: 0.7;}
+#myImg2:hover {opacity: 0.7;}
+#myImg3:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+  
+  /* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+}
+
+  /* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+  
+  /* Add Animation */
+.modal-content, #caption {  
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+  
+@keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+}
+  
+  /* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+  
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 460px) {
+
+    .sobremim span {
+        font-size: 20px;
+    }
+
+    .google-flex span,
+    .japanese-flex span,
+    .jornal-flex span {
+        width: 200vw;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .main-content {
+        margin-right: -200px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .foto img{
+        height: 30vh;
+        width: 30vh;
+    }
+
+    .main-content {
+        margin-right: -200px;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .foto img{
+        height: 30vh;
+        width: 30vh;
+        margin-left: -50px;
+    }
+
+    .sobremim span {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 690px) {
+
+    .main-content {
+        margin-left: -4vw;
+        margin-top: 20px;
+    }
+
+    .torres-text {
+        margin-left: 10vw;
+    }
+
+    .frontend-text {
+        margin-left: 10vw;
+    }
+
+    .quem {
+        margin-left: 25vw;
+    }
+
+    .container2 {
+        flex-wrap: wrap;
+        margin-right: -50vw;
+    }
+
+    .foto img{
+        margin-left: 14vw;
+        margin-bottom: 10vh;
+    }
+
+    .sobremim {
+        margin-left: 7vw;
+        width: 90vw;
+    }
+
+    .google-flex,
+    .japanese-flex,
+    .jornal-flex {
+        flex-wrap: wrap;
+        margin-bottom: 10vh;
+    }
+
+    .google-flex span,
+    .japanese-flex span,
+    .jornal-flex span {
+        width: 300vw;
+    }
+
+    .container3 {
+        margin-left: 20vw;
+    }
+
+    .projetos-title {
+        margin-left: 20vw;
+    }
+
+    .contato-title {
+        margin-left: 37vw;
+    }
+
+    .contactme {
+        margin-left: 37vw;
+    }
+
+    button {
+        width: 20vw;
+    }
+
+    .container4 {
+        margin-left: 5vw;
+    }
+}
+
+@media (max-width: 725px) {
+
+    .jornal-flex span,
+    .google-flex span,
+    .japanese-flex span {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .quem {
+        margin-right: -10vw;
+    }
+}
+
+@media (max-width: 853px) {
+    .quem {
+        margin-right: -10vw;
+    }
+}
+
+@media (max-width: 936px) {
+
+    .quem {
+        margin-left: 10vw;
+    }
+
+    .container2 {
+        flex-wrap: wrap;
+        margin-right: -20vw;
+    }
+
+    .foto img{
+        margin-left: 30vw;
+        margin-bottom: 10vh;
+    }
+
+    .sobremim {
+        margin-left: 7vw;
+        width: 90vw;
+    }
+}
